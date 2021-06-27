@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body {
+    padding-top: 3em;
+}
+
+header img {
+    padding-left: 2.8em;
+    width: 170px;
+}
+
+main {
+    /* text-align: center;
+    justify-content: center; */
+    padding-top:4em ;
+    font-family: 'Manrope', sans-serif;
+}
+
+main h1, .signup_btns, .sign_in {
+    text-align: center;
+    justify-content: center;
+}
+
+.submit {
+    text-align: center!important;
+    justify-content: center!important;
+}
+
+form {
+    margin-left: 37%;
+}
+
+form label {
+    
+} 
+
+main h1 {
+    font-family: 'Manrope', sans-serif;
+    color: rgba(48, 18, 105, 1);
+    padding-bottom: 1em;
+}
+
+main .signup_btns {
+    padding-bottom: 2em;
+}
+
+
+
+main .signup_btns button {
+    padding: 1em;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 15px;
+    background-color:rgba(245, 245, 245, 1);
+    border: none;
+    font-weight:bold ;
+    
+    
+
+}
+
+main .signup_btns :hover {
+    background-color:rgba(222, 219, 228, 1);
+    
+}
+
+main .signup_btns :active {
+    background-color:rgba(222, 219, 228, 1);
+    
+    
+}
+
+.employee_signup {
+    margin-left: 5em;
+}
+
+main form {
+    font-weight: bold;
+
+}
+
+
+form input {
+    border: 1px solid rgba(203, 196, 218, 1);
+    border-radius: 10px;
+    padding: 1.3em;
+    width: 30em;
+    
+    
+}
+
+
+#cV, #cv {
+    display: 
+}
+
+form .submit {
+    background-color: rgba(48, 18, 105, 1);
+    color: white;
+}
+
+form .submit:hover {
+    background-color: rgb(201, 193, 193);
+    color: rgba(48, 18, 105, 1); 
+    border-color: rgba(48, 18, 105, 1);
+}
+
+main .sign_in {
+    padding: 3em;
+}
+
+
+.sign_in a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5em;
+}
+
+.sign_in button {
+    border-radius: 10px;
+    background-color: white;
+    border-color: rgba(48, 18, 105, 1);
+    color: rgba(48, 18, 105, 1);
+    padding: 1em;
+    width: 15em;
+}
+
+.sign_in button:hover {
+    background-color:rgba(48, 18, 105, 1);
+    color: white;
+}
+
+/*mobile view*/
+@media only screen and (max-width:600px) {
+    body {
+        padding-top: 1.5em;
+    }
+    main{
+        padding-top: 1em;
+        justify-content: center;
+        text-align: center;
+    }
+    header img {
+        padding-left: 1.5em;
+        width: 100px;
+    }
+    main h1{
+        font-size: 1.5em;
+    }
+    form {
+        margin-left: 0%;
+    }
+
+    form input {
+        border-radius: 7px;
+        padding: 0.5em;
+        width: 15em;
+    }
+
+    form label {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .signup_btns {
+        font-weight: normal;
+ 
+    }
+
+    .employee_signup {
+        margin-left: 0px;
+        margin-top: 1em;
+    }
+
+    .sign_in {
+        font-size: 13px;
+    }
+
+    .sign_in button {
+        border-radius: 7px;
+        padding: 0.5em;
+    }
+
+    .sign_in a {
+        margin-right: 0em
+    }
+
+
+}
+
+/*larger mobiles*/
+@media only screen and (max-width:1030px) {
+    main{
+        justify-content: center;
+        text-align: center;
+    }
+
+    form {
+        margin-left: 0%;
+    }
+
+}
+
+

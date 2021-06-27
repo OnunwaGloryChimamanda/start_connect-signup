@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo (2).svg" alt="logo" />
+    </header>
+    <main>
+        <!-- <img src="img/Get Started.svg"> -->
+        <h1>Get Started</h1>
+        <div class="signup_btns">
+        <button onclick="employerSignup()" class="employer_signup" id="employer_signup">Sign Up As An Employer</button>
+        <button onclick="employeeSignup()" class="employee_signup" id="employee_signup">Sign Up As A Candidate</button>
+        </div>
+        <p id="submission_alert" style="color: rgb(52, 77, 15);font-weight: bold;"></p>
+        <form>
+            <label for="name" id="fname">Full Name*</label><br>
+            <input type="text" id="fName" name="name" required><br><br>
+
+            <label for="email" id="eMail">Email*</label><br>
+            <input type="email" id="e_mail" name="email" required><br><br>
+
+            <label for="year_of_completion" id="yearOfCompletion">Year Of Completion*</label><br>
+            <input type="month" id="year_of_completion" name="year_of_completion" required><br><br>
+
+            <label for="studentId" id="studentId">Student ID*</label><br>
+            <input type="text" id="student_id" name="student_id" required><br><br>
+
+            <label for="linkedin" id="linkedIn">Linkedin Account</label><br>
+            <input type="text" id="linkedin" name="linkedin"><br><br>
+
+            <label for="twitter" id="twitterAcc">Twitter Account</label><br>
+            <input type="text" id="twitter" name="twitter"><br><br>
+
+            <label for="cv" id="cV">CV*</label><br>
+            <input type="file" id="cv" name="cv"><br><br>
+
+            <label for="phoneNo" id="phoneNumber">Phone Number</label><br>
+            <input type="tel" id="phoneNo" name="phoneNo" required><br><br>
+
+            <label for="password" id="psswd">Password</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <input onclick="formValidation()" class="submit" type="submit" value="Sign Up">
+            
+
+        </form>
+        <div class="sign_in">
+            <a href="#">Already have an account?</a>
+            <!-- <class="have_an_account">Already have an account?</button> -->
+            <button>Sign In</button>
+        </div>
+
+        
+
+
+    </main>
+    <footer></footer>
+    
+<script src="script.js"></script>
+</body>
+</html>
